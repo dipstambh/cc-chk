@@ -1,7 +1,7 @@
 <?php
 
 ////////////////=============[@LordVishuu CHK BOT]=============////////////////
-$botToken = "8797479014:AAFFAd6qb2m3fEbGskrQXc7I0HHW7soIw98"; // Enter ur bot token
+$botToken = "8797479014:AAFxZxTtgFwkNfHRRLtAB95vKfKE4UHkI8w"; // Enter ur bot token
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
@@ -20,7 +20,7 @@ $premium = explode("\n", $premiums);
 $group = file_get_contents('groups.txt');
 $groups = explode("\n", $group);
 if($userId == '8110592842') {
-$usernam = ''.shadowdemon_xd.'%0A [Owner]';
+$usernam = ''.lordvishuu.'%0A [Owner]';
 }
 elseif($userId == '1386134927') {
 $usernam = ''.mtchex.'%0A [Owner]';
